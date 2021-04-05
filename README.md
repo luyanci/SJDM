@@ -6,5 +6,7 @@
 
 ### 编辑软件+支持库
 [易语言](http://www.dywt.com.cn/)
+
 [EXUI](http://iexui.com)
- **精易模块已经存放在仓库的ecom文件夹里** 
+ 
+**精易模块已经存放在仓库的ecom文件夹里** 

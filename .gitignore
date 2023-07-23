@@ -1,4 +1,5 @@
 /res/*
 *.bak
+*.exe
 res.zip
-SJDMDebugService.exe
+

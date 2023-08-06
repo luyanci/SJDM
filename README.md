@@ -13,7 +13,7 @@ git clone https://github.com/luyanci/sjdm.git
 ```
 
 2 安装好以下软件后，打开软件，然后打开<主程序.e>，就可以进行编译了
-**如需使用静态编译，请使用vc6静编**
+ **如需使用静态编译，请使用vc6静编**
 
 ### 需安装的安装软件
 [易语言](http://www.dywt.com.cn/)

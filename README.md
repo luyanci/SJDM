@@ -5,7 +5,8 @@
 ## 源码编译
 ### 步骤
 1 使用git clone 来克隆此项目
-```# use gitee
+```
+# use gitee
 git clone https://gitee.com/luyanci/sjdm.git
 # use github
 git clone https://github.com/luyanci/sjdm.git

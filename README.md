@@ -5,12 +5,11 @@
 ## 源码编译
 ### 步骤
 1 使用git clone 来克隆此项目
-'''
-# use gitee
+```# use gitee
 git clone https://gitee.com/luyanci/sjdm.git
 # use github
-git clone https://github.com/luyanci/sjdm.git
-'''
+git clone https://github.com/luyanci/sjdm.git```
+
 2 安装好以下软件后，打开软件，然后打开<主程序.e>，就可以进行编译了
 **如需使用静态编译，请使用vc6静编**
 

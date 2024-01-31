@@ -4,6 +4,7 @@ on:
     push:
         tags:
             - '*'
+    workflow_dispatch:
 
 jobs:
     release:
@@ -11,7 +12,7 @@ jobs:
         steps:
             - name: Get files from repository(Gitee)
               run: |
-                wget https://gitee.com/vc_teahouse/SJDM/releases/download/${{ github.ref_name }}/%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D.exe -SJDM.exe
+                wget https://gitee.com/vc_teahouse/SJDM/releases/download/${{ github_ref/refs\/tags\// }}/%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D.exe -oSJDM.exe
             - name: Upload to Release
               uses: svenstaro/upload-release-action@v2
               with:

@@ -2,6 +2,8 @@ name: Release
 
 on:
     push:
+        branches:
+            - master
         tags:
             - '*'
 
@@ -9,10 +11,8 @@ jobs:
     release:
         runs-on: ubuntu-latest
         steps:
-            - name: Get files from repository(Gitee)
-              run: |
-                wget https://gitee.com/vc_teahouse/SJDM/releases/download/${{ github.ref_name }}/%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D.exe -oSJDM.exe
-            - name: Upload to Release
-              uses: svenstaro/upload-release-action@v2
+            - name: Create Releases
+              uses: softprops/action-gh-release@v2.0.4
               with:
-                file: SJDM.exe
+                tag_name: ${{ github.ref_name }}
+                body: "## [Click here to download!](https://gitee.com/vc_teahouse/SJDM/releases/download/${{ github.ref_name }}/%E9%9A%8F%E6%9C%BA%E7%82%B9%E5%90%8D.exe)"

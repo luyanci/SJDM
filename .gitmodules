@@ -1,0 +1,3 @@
+[submodule "Updater"]
+	path = Updater
+	url = https://gitee.com/vc_teahouse/sjdm-updater.git

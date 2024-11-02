@@ -3,3 +3,4 @@
 *.exe
 res.zip
 version.ini
+updatelogs/*

@@ -1,6 +1,7 @@
 /res/*
 *.bak
 *.exe
+*.dll
 res.zip
 version.ini
 updatelogs/*
